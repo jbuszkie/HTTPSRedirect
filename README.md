@@ -1,4 +1,8 @@
 # HTTPS Redirect
+
+Note:  This is a copy from https://github.com/electronicsguy/ESP8266.git.  Just the HTTPSRedirect folder.  This is an attempt
+to get it to work with platform IO library importer.
+
 ## A library for seamless data logging, communication and control for Internet of Things (focus: ESP8266, ESP32)
 This library extends the *WiFiClientSecure* library ([Ivan-github](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/src/WiFiClientSecure.h)). 
 *HTTPSRedirect* uses the header information in the server's reply to a HTTP *GET* or *POST* request, and follows the re-direction URL by making another suitable *GET* request. In many cases, it is this re-directed URL which would present the final data that was required. 
